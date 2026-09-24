@@ -20,64 +20,19 @@ export function Contact() {
             <span className="muted">New possibilities.</span>
           </h2>
           <p>
-            For publishing, business inquiries, and conversations about what
-            comes next.
+            For publishing partnerships and conversations about what comes next.
           </p>
         </div>
         <div className="contact-list">
           <div className="contact-row">
-            <span>Business inquiries</span>
-            {site.businessEmail ? (
-              <a href={`mailto:${site.businessEmail}`}>
-                {site.businessEmail}
-                <Arrow diagonal />
-              </a>
-            ) : (
-              <span className="contact-pending">
-                Business email coming soon
-              </span>
-            )}
-          </div>
-          <div className="contact-row">
-            <span>Studio email</span>
-            {site.email ? (
-              <a href={`mailto:${site.email}`}>
-                {site.email}
-                <Arrow diagonal />
-              </a>
-            ) : (
-              <span className="contact-pending">
-                Studio address coming soon
-              </span>
-            )}
+            <span>Location</span>
+            <span>Based out of Dallas</span>
           </div>
           <div className="contact-row">
             <span>Find the work</span>
             <a href={site.github} target="_blank" rel="noopener noreferrer">
               GitHub <Arrow diagonal />
             </a>
-          </div>
-          <div className="contact-row">
-            <span>Follow the studio</span>
-            {site.socials.length ? (
-              <div className="social-links">
-                {site.socials.map((social) => (
-                  <a
-                    href={social.url}
-                    key={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {social.label}
-                    <Arrow diagonal />
-                  </a>
-                ))}
-              </div>
-            ) : (
-              <span className="contact-pending">
-                Social channels coming soon
-              </span>
-            )}
           </div>
         </div>
       </div>
