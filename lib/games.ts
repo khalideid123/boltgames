@@ -111,10 +111,11 @@ export const games: Game[] = [
     name: "The Room Remembers",
     theme: "room",
     genre: "Memory / Psychological horror",
-    status: "In development",
-    platform: "To be announced",
-    players: "Single-player concept",
-    release: "No release date announced",
+    status: "Playable now",
+    platform: "Web browser",
+    players: "Single-player",
+    release: "Playable browser build",
+    playUrl: "https://the-room-remembers.vercel.app/",
     tagline: "Something changed. Did you notice?",
     summary:
       "Study the room. The lights go out. Something changes. Find it before the room gets the better of you.",
@@ -131,29 +132,29 @@ export const games: Game[] = [
       {
         title: "Find what changed",
         description:
-          "The planned changes range from moved or missing objects to flipped paintings and unexpected doors or windows.",
+          "When the lights return, compare the room with your memory and select the detail that changed.",
       },
       {
-        title: "Question the room",
+        title: "Four rooms to remember",
         description:
-          "Mirrors, misleading details, altered architecture, and increasingly impossible spaces are part of the concept.",
+          "Explore four atmospheric 3D rooms, each with a new arrangement of details to keep in mind.",
       },
       {
-        title: "Feel the pressure",
+        title: "Twelve rounds of observation",
         description:
-          "The intended progression grows more unsettling and difficult, with a threatening shadowy presence planned for later.",
+          "Put your memory to the test through twelve increasingly strange rounds of inspection, blackout, and discovery.",
       },
     ],
     publisherNotes: [
       {
         title: "Development stage",
         description:
-          "An in-development concept. Features and visual direction are subject to change. No public playable build is currently linked here.",
+          "A playable browser build is available now, with four rooms and twelve rounds. The project remains in development, and features and visual direction may change.",
       },
       {
         title: "A clear central mechanic",
         description:
-          "Observe, remember, identify. The concept pairs an immediately understandable memory loop with escalating psychological tension.",
+          "Observe, remember, identify. The game pairs an immediately understandable memory loop with escalating psychological tension.",
       },
       {
         title: "Open for discussion",

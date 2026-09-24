@@ -25,9 +25,21 @@ export function GameCard({ game }: { game: Game }) {
           <Link href={`/games/${game.slug}`}>{game.name}</Link>
         </h3>
         <p>{game.summary}</p>
-        <Link className="text-link" href={`/games/${game.slug}`}>
-          Explore game <Arrow />
-        </Link>
+        {game.playUrl ? (
+          <a
+            className="text-link"
+            href={game.playUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Play ${game.name} (opens in a new tab)`}
+          >
+            Play now <Arrow diagonal />
+          </a>
+        ) : (
+          <Link className="text-link" href={`/games/${game.slug}`}>
+            Explore game <Arrow />
+          </Link>
+        )}
       </div>
     </article>
   );

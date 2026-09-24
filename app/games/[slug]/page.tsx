@@ -70,7 +70,7 @@ export default async function GamePage({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Play FriendGuess <Arrow diagonal />
+                Play now <Arrow diagonal />
               </a>
             ) : (
               <Link className="button button-outline" href="#concept">
