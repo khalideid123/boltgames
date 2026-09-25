@@ -15,11 +15,9 @@ export function Footer() {
         <p>Independent by design.</p>
         <a
           className="text-link"
-          href={site.github}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={`mailto:${site.email}`}
         >
-          GitHub <Arrow diagonal />
+          Email us <Arrow diagonal />
         </a>
       </div>
       <div className="footer-wordmark" aria-hidden="true">

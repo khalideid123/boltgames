@@ -29,9 +29,9 @@ export function Contact() {
             <span>Based out of Dallas</span>
           </div>
           <div className="contact-row">
-            <span>Find the work</span>
-            <a href={site.github} target="_blank" rel="noopener noreferrer">
-              GitHub <Arrow diagonal />
+            <span>Email</span>
+            <a href={`mailto:${site.email}`}>
+              {site.email} <Arrow diagonal />
             </a>
           </div>
         </div>

@@ -119,9 +119,6 @@ export default function Home() {
                 Explore the projects, try the playable build, and let’s discuss
                 the right opportunity.
               </p>
-              <Link className="button button-primary" href="#contact">
-                Discuss an opportunity <Arrow diagonal />
-              </Link>
             </div>
             <div className="opportunities">
               {opportunities.map((item, i) => (

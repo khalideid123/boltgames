@@ -1,10 +1,9 @@
-// Replace null values when the studio's official contact details are ready.
-// Empty entries render honest, non-clickable placeholders — never broken links.
+// Public studio contact details and site metadata.
 export const site = {
   name: "Bolt Games",
   description:
     "An independent solo game studio creating original games. Explore FriendGuess, a playable browser party game, and The Room Remembers, a memory horror game in development.",
-  email: process.env.NEXT_PUBLIC_STUDIO_EMAIL || null,
+  email: "realmatiofan@gmail.com",
   businessEmail:
     process.env.NEXT_PUBLIC_BUSINESS_EMAIL ||
     process.env.NEXT_PUBLIC_STUDIO_EMAIL ||

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Bolt, Arrow } from "./icons";
+import { Bolt } from "./icons";
 
 const links = [
   ["Home", "/"],
@@ -67,13 +67,6 @@ export function Header() {
               {label}
             </Link>
           ))}
-          <Link
-            className="nav-contact"
-            href="/#contact"
-            onClick={() => setOpen(false)}
-          >
-            Contact <Arrow diagonal />
-          </Link>
         </nav>
       </div>
     </header>
